@@ -61,20 +61,20 @@ contract DegenToken is ERC20("Degen", "DGN"), Ownable {
 
         // Value and tokenName will be set according to the users choice
         if (choice == 1) {
-            value = 500;
-            tokenName = "Naruto Headband";
+            value = 600;
+            tokenName = "Brush ven";
         } else if (choice == 2) {
-            value = 1200;
-            tokenName = "Madara Susano";
+            value = 1500;
+            tokenName = "Gothan star";
         } else if (choice == 3) {
-            value = 300;
-            tokenName = "Fireball Punch";
+            value = 500;
+            tokenName = "Monky luffy";
         } else if (choice == 4) {
-            value = 800;
-            tokenName = "Itachi Sharingaan";
+            value = 900;
+            tokenName = "D dragon";
         } else {
-            value = 1000;
-            tokenName = "Kurama 9 tailed Beast";
+            value = 1200;
+            tokenName = "Gohan boss";
         }
 
 
